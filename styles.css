@@ -73,11 +73,18 @@ nav a.highlight {
     background-color: #026e78;
     color: #fff;
 }
-
+nav a.green {
+    background-color: #fff;
+    color: #116f77;
+    font-weight: bold;
+}
+nav a.light-green {
+    background-color: #5c868a;
+    color: #fff;
+}
 nav a:hover {
     opacity: 0.8;
 }
-
 .content {
     display: flex;
     flex-direction: column;
@@ -85,7 +92,6 @@ nav a:hover {
     align-items: flex-start;
     margin-top: 5rem;
 }
-
 .content h1 {
     background-color: #026e78;
     color: white;
@@ -93,13 +99,11 @@ nav a:hover {
     padding: 1rem;
     font-weight: 200;
 }
-
 .white-link {
     background-color: #fff;
     color: #2d99a4;
     padding: 1rem;
 }
-
 .teal-link {
     background-color: #2d99a4;
     color: #fff;
@@ -112,7 +116,6 @@ nav a:hover {
         flex-direction: column;
         justify-content: center;
     }
-
     .content {
         font-size: 1.5rem;
     }
